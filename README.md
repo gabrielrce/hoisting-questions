@@ -129,8 +129,9 @@ var foo = 5
 
 function baz() {
   foo = 10
-  return function foo() {}
+  return
+  function foo() {}
 }
 baz()
-console.log(foo) // output: 10
+console.log(foo) // output: 5
 ```
