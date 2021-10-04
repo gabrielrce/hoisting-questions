@@ -122,7 +122,7 @@ function foo() {
 }
 ```
 
-## Question 9 ##
+## Question 10 ##
 
 ```
 var foo = 5
